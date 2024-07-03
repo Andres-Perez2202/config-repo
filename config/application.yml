@@ -1,5 +1,5 @@
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/tu_bd
+    url: jdbc:postgresql://localhost:5432/muestrasdb
     username: prueba
     password: prueba
