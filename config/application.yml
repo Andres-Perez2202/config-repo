@@ -1,5 +1,5 @@
 spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/muestrasdb
-    username: prueba
-    password: prueba
+    username: lab_user
+    password: lab_password
