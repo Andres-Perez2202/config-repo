@@ -5,7 +5,7 @@ spring:
   dbcp2:
    driver-class-name: com.mysql.cj.jdbc.Driver
   password: pwd12345
-  url: jdbc:mysql://localhost:5435/db_lab
+  url: jdbc:mysql://localhost:3360/db_lab2
   username: admin
  jpa:
   hibernate: 
