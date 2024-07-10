@@ -3,10 +3,10 @@ spring:
   name: config-prod
  datasource:
   dbcp2:
-   driver-class-name: 
-  password:
-  url:
-  username: 
+   driver-class-name: org.postgresql.Driver
+  password: lab_password
+  url: jdbc:mysql://localhost:5432/lab_database
+  username: lab_user
  jpa:
   hibernate: 
    ddl-auto: update
