@@ -4,9 +4,9 @@ spring:
  datasource:
   dbcp2:
    driver-class-name: com.mysql.cj.jdbc.Driver
-  password: lab_password
-  url: jdbc:mysql://localhost:5432/lab_database
-  username: lab_user
+  password: pwd12345
+  url: jdbc:mysql://localhost:5435/db_lab
+  username: admin
  jpa:
   hibernate: 
    ddl-auto: update
