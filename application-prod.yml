@@ -3,7 +3,7 @@ spring:
   name: config-prod
  datasource:
   dbcp2:
-   driver-class-name: com.mysql.cj.jdbc.Driver
+   driver-class-name: org.postgresql.Driver
   password: pwd12345
   url: jdbc:postgresql://localhost:5432/db_lab
   username: postgres
